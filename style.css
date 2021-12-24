@@ -1,17 +1,30 @@
+/* Body of the website */
+body {
+    background-color: snow;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* all letters formatting */
+h1, h2, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* hidden drop-down */
 .drop-down {
     display: none;
 }
 
-/* nav itself */
+/* navbar itself */
 nav {
-    height: 48px;
-    padding: 0 8px;
+    height: 56px;
+    padding: 0 16px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: white;
 }
 
-/* left-side nav */
+/* left-side navbar */
 .left-nav-bar {
     display: flex;
     align-items: center;
@@ -37,11 +50,12 @@ nav {
 /* middle nav */
 .center-nav-bar {
     display: flex;
+    align-items: center;
 }
 
 /* search field */
 #searchbar {
-    width: 600px;
+    width: 550px;
     height: 40px;
     box-sizing: border-box;
     border-radius: 0%;
@@ -72,9 +86,255 @@ nav {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    margin: 0 16px;
+    margin-left: 8px;
 }
 /* mic icon */
 #mic-button img {
-    height: 20px;
+    height: 18px;
 }
+
+/* right-side navbar */
+.right-nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Create-video button */
+#create-button {
+    height: 40px;
+}
+
+/* Create-video icon */
+#create-button img {
+    height: 22px;
+}
+
+/* App-icon button */
+#app-button {
+    height: 40px;
+}
+
+/* App-icon image */
+#app-button img {
+    height: 24px;
+}
+
+/* Notifications button */
+#pop-up-notif {
+    height: 40px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+/*Notifications image */
+#pop-up-notif img {
+    height: 30px;
+}
+
+/* Profile-picture button */
+#profile-picture {
+    height: 36px
+}
+
+/* Profile-picture image */
+#profile-picture img {
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* main video page */
+main {
+    width: 85vw;
+    margin: 16px 7.5vw;
+    display: flex;
+}
+
+/* Main video content */
+.main-video {
+    flex: 1 1 70%;
+    display: flex; 
+    flex-direction: column;
+    box-sizing: border-box; 
+}
+
+/* Video wrapper */ 
+.video-wrapper {
+    display: flex;
+    height: 35vw;
+}
+/* Video recommendations */
+
+.video-recommendation {
+    flex: 1 1 30%;
+}
+
+/* Video itself */
+.video {
+    flex: 1 1 0;
+    width: auto;
+    height: auto;
+}
+
+/* video information wrapper */
+.video-info {
+    box-sizing: border-box;
+    height: 86px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+/* left video information container */
+.left-video-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* video title wrapper */
+.video-title {
+    display: flex;
+    align-items: center;
+}
+
+/* video title */ 
+.video-title h1 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* video metadata letters*/
+.video-metadata p {
+    display: inline;
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+/* video meta-data */
+.video-metadata {
+    display: flex;
+    gap: 6px;
+}
+
+/* small bullet point */
+.dot {
+    background: gray;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+/* right video information container */
+.right-video-info {
+    display: flex;
+    align-self: flex-end;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+/* icons button in the info section */
+.info-icon {
+    height: 16px;
+}
+
+/* every text in the right side of the info section */
+.right-video-info p {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    align-self: flex-start;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* every container of the buttons of the right side of the info */
+.info-container {
+    display: flex;
+}
+
+/* infobutton's wrapper */
+.info-buttons {
+    align-self: center;
+}
+
+/* option icon */
+#option-button .option-icon {
+    height: 3px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+/* top description content */
+.top-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+/* subscribe button */
+.subscribe-button {
+    background: #E62117;
+    border-radius: 3px;
+    height: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: 110px;
+}
+
+/* top left description */
+.left-top-desc {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* channel name container */
+.channel-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+/* channel name letter property */
+.channel-name p {
+    margin: 0;
+}
+
+/* main text of channel name */
+.channel-main-text {
+    display: flex;
+    gap: 6px;
+}
+
+/* channel text name */
+.channel-title-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* verified icon */
+.channel-main-text .info-icon{
+    height: 14px;
+}
+
+/* amount of subscribers */
+.subscribers {
+    font-size: 12px;
+    color: gray;
+}
+/* the walters profile picture */
+.the-walters-pfp {
+    height: 48px;
+    border-radius: 50%;
+}
+
