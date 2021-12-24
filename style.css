@@ -1,0 +1,80 @@
+/* hidden drop-down */
+.drop-down {
+    display: none;
+}
+
+/* nav itself */
+nav {
+    height: 48px;
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* left-side nav */
+.left-nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* image of side bar */
+#side-bar img {
+    height: 24px;
+}
+
+/* hide button's property in all icon */
+.transparent {
+    background-color: white;
+    border: 0;
+}
+
+/* logo image */
+.logo img {
+    height: 20px;
+}
+
+/* middle nav */
+.center-nav-bar {
+    display: flex;
+}
+
+/* search field */
+#searchbar {
+    width: 600px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 0%;
+    border: 1px solid silver;
+    color: gray;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+/* search button */
+#search-button {
+    height: 40px;
+    width: 60px;
+    box-sizing: border-box;
+    border-radius: 0%;
+    border: 1px solid silver;
+    border-left: 0px;
+}
+
+/* search icon */
+#search-button img {
+    max-height: 24px;
+}
+
+/* mic button */
+#mic-button {
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 16px;
+}
+/* mic icon */
+#mic-button img {
+    height: 20px;
+}
