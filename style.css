@@ -165,7 +165,7 @@ main {
 }
 /* Video recommendations */
 
-.video-recommendation {
+aside {
     flex: 1 1 30%;
 }
 
@@ -442,3 +442,4 @@ main {
     border-bottom: 1px solid lightgray;
     margin-left: 16px;
 }
+

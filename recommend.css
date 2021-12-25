@@ -1,0 +1,95 @@
+/* video recommendation side */
+aside {
+    margin-left: 20px;
+}
+
+/* round tags section */
+.round-tags {
+    display: flex;
+    margin-bottom: 16px;
+    gap: 8px;
+}
+
+/* main tag */
+.main-tag {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+    padding: 8px 12px;
+}
+
+/* tag */
+.tag {
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 8px 12px;
+    background-color: 	#E8E8E8;
+    border: 1px solid silver;
+}
+
+/* recommended video box */
+.video-box {
+    display: flex;
+    margin: 8px 0;
+}
+
+/* recommended video details */
+.video-details {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* recommended artist name */
+.recommend-artist {
+    display: flex;
+    gap: 8px;
+}
+
+/* recommended verified */
+.recommend-artist img {
+    height: 12px;
+}
+
+.recommend-metadata {
+    display: flex;
+    gap: 6px;
+}
+/* recommended text styling */
+.recommended-text {
+    font-size: 13px;
+    color: gray;
+    font-family: Roboto, sans-serif;
+}
+
+/* title of recommende videos */
+.recommend-title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* timeline */
+.timeline {
+    padding: 2px 4px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: black;
+    z-index: 99;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+/* thumbnail */
+.thumbnail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding: 4px 2px;   
+    width: 168px;
+    height: 94px;
+    background-image: url('https://i.ytimg.com/vi/ucRVDoFkcxc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCQbNQBCIC1H40EnseaGU3F3TsLow')
+}

@@ -86,3 +86,33 @@
 .view-reply img {
     height: 8px;
 }
+
+/* title of recommende videos */
+.recommend-title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* timeline */
+.timeline {
+    padding: 2px 4px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: black;
+    z-index: 99;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+/* thumbnail */
+.thumbnail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding: 4px 2px;   
+    width: 168px;
+    height: 94px;
+    background-image: url('https://i.ytimg.com/vi/ucRVDoFkcxc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCQbNQBCIC1H40EnseaGU3F3TsLow')
+}
