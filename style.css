@@ -55,7 +55,7 @@ nav {
 
 /* search field */
 #searchbar {
-    width: 550px;
+    width: 600px;
     height: 40px;
     box-sizing: border-box;
     border-radius: 0%;
@@ -329,7 +329,7 @@ main {
 
 /* amount of subscribers */
 .subscribers {
-    font-size: 12px;
+    font-size: 13px;
     color: gray;
 }
 /* the walters profile picture */
@@ -338,3 +338,107 @@ main {
     border-radius: 50%;
 }
 
+/* mid desc container */
+.mid-desc {
+    display: flex;
+}
+
+/* video description container*/
+.mid-video-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+/* video description text*/
+.mid-video-main p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+/* description expander */
+.expander {
+    width: 64px
+}
+
+/* description suggestion box */
+.suggestion-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* suggestion text */
+.suggestion-text {
+    font-size: 14px;
+    width: 100px;
+    line-height: 1.5;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+/* suggested video link */
+.suggestion-box a {
+    font-size: 14px;
+}
+
+/* comment section box */
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid lightgray;
+}
+
+/* comment data section */
+.comment-data {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 32px;
+}
+
+/* comment counts */
+.comment-count {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/* comment sort by button */
+.comment-sort-by {
+    display: flex; 
+}
+
+/* comment sort by icon */
+#sort-by img {
+    height: 32px;
+}
+
+/* sort by button text */
+.comment-sort-by p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* comment draft section */
+.comment-draft {
+    display: flex;
+    margin-top: 8px;
+}
+
+/* comment profile picture */
+.pfp {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+/* comment field */
+#comment-field {
+    height: 24px;
+    width: 100%;
+    color: dimgray;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 16px;
+}

@@ -1,0 +1,88 @@
+/* comment box per person */
+.comment-box {
+    display: flex;
+    margin-top: 32px;
+    gap: 16px;
+}
+
+/* right-side comment info */
+.comment-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+/* comment name + title section */
+.cmt-name-tag {
+    display: flex;
+    gap: 6px;
+}
+
+/* name of commentors */
+.cmt-title {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* verified pic */
+.cmt-name-tag img {
+    height: 12px;
+}
+
+/* date */
+.date {
+    font-size: 13px;
+    color: dimgray;
+}
+
+/* comment name tag paragraph */
+.cmt-name-tag p {
+    margin: 0;
+}
+
+/* comment content */
+.comment-main p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* comment buttons and texts */
+.comment-buttons {
+    margin-top: 8px;
+    width: 140px;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* icons */
+.small-icons {
+    height: 12px;
+}
+
+/* text in comments buttons */
+.cmt-text {
+    font-size: 13px;
+    color: dimgray;
+}
+
+/* reply text */
+.reply {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;  
+}
+
+/* view reply container */
+.view-reply {
+    gap: 12px;
+    display: flex;
+    color: #1F51FF;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 4px;
+}
+
+/* view reply icon */
+.view-reply img {
+    height: 8px;
+}
